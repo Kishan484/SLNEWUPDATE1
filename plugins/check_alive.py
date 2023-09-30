@@ -71,11 +71,3 @@ async def ping(_, message):
     time_taken_s = (end_t - start_t) * 1000
 
     await rm.edit(f"VPS_HOSTING_SERVER_SIGNAL_LIVE....🔴\n{time_taken_s:.3f} ms")
-
-
-@Client.on_message(filters.command('vps')
-async def stats(bot, message):
-    msg = await message.reply('LOADING WAIT 🧬...')
-    
-    uptime = get_readable_time(time.time() - temp.START_TIME)
-    await msg.edit(script.VPS_TXT.format(uptime))
