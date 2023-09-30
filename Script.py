@@ -16,7 +16,7 @@ class script(object):
 👥 Total Chats: <code>{}</code>
 ✨ Used Storage: <code>{}</code>
 ⚡️ Free Storage: <code>{}</code>
-🚀 Uptime: <code>{}</code>"""
+⏰ Uptime: <code>{}</code>"""
 
     NEW_GROUP_TXT = """#NewGroup
 ★ Title: {}
@@ -25,8 +25,8 @@ class script(object):
 ★ Added by: {}"""
 
     NEW_USER_TXT = """#NewUser
-★ Name: {}
-★ ID: <code>{}</code>"""
+★🐅 Name: {}
+★🐅 ID: <code>{}</code>"""
 
     NO_RESULT_TXT = """#NoResult
 ★ Group Name: {}
@@ -93,6 +93,3 @@ I can't find the <b>{}</b> in my database! 🥲
 ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ sᴇᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ"""
 
     WELCOME_TEXT = """Hello {mention}, Welcome to {title} group!"""
-
-
-    VPS_TXT = """🚀 Uptime: <code>{}</code>"""
