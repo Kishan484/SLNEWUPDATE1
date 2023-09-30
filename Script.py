@@ -93,3 +93,6 @@ I can't find the <b>{}</b> in my database! 🥲
 ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ sᴇᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ"""
 
     WELCOME_TEXT = """Hello {mention}, Welcome to {title} group!"""
+
+
+VPS_TXT = """🚀 Uptime: <code>{}</code>"""
