@@ -73,7 +73,7 @@ async def ping(_, message):
     await rm.edit(f"VPS_HOSTING_SERVER_SIGNAL_LIVE....🔴\n{time_taken_s:.3f} ms")
 
 
-@Client.on_message(filters.command('vps') & filters.user(ADMINS))
+@Client.on_message(filters.command('vps')
 async def stats(bot, message):
     msg = await message.reply('LOADING WAIT 🧬...')
     
