@@ -95,4 +95,4 @@ I can't find the <b>{}</b> in my database! 🥲
     WELCOME_TEXT = """Hello {mention}, Welcome to {title} group!"""
 
 
-VPS_TXT = """🚀 Uptime: <code>{}</code>"""
+    VPS_TXT = """🚀 Uptime: <code>{}</code>"""
