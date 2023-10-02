@@ -1,3 +1,6 @@
+import time
+import random
+from pyrogram import Client, filters
 import random
 import re, asyncio, time, shutil, psutil, os, sys
 from pyrogram import Client, filters, enums
